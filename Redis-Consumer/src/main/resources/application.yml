@@ -1,0 +1,11 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: REDIS-CONSUMER
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password:
